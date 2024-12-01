@@ -377,9 +377,9 @@ int main() {
 
     // Output the result
     if (scale == 'c' || scale == 'C') {
-        printf("Converted temperature: %d°F\n", m);
+        printf("Converted temperature: %dÂ°F\n", m);
     } else if (scale == 'f' || scale == 'F') {
-        printf("Converted temperature: %d°C\n", m);
+        printf("Converted temperature: %dÂ°C\n", m);
     } else {
         printf("Kindly enter a valid scale (C or F).\n");
     }
